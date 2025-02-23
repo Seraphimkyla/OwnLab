@@ -1,0 +1,45 @@
+﻿body {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background: url('../computer-chip-cpu.png') no-repeat center center;
+    background-size: cover;
+}
+
+.container {
+    width: 65%;
+    margin: auto; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.circle-img {
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    border: 2px solid white; 
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkred;
+}
+.contact i {
+    font-size: 24px; 
+    color: darkred; 
+    margin-right: 8px; 
+    vertical-align: middle; 
+}
